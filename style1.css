@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #1d1d1d;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 30px 10%;
+    background-color: rgb(4, 165, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    /* cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards; */
+}
+.navbar{
+    margin: 10px 0px;
+}
+.navbar a 
+{
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    /* opacity: 0;
+    animation: slideTop .5s ease forwards; */
+}
+.navbar a:hover{
+    color: aqua;
+}
+section{
+    padding: 40px 0;
+}
+.image{
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(img/6..jpg);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    background: url(img/12..jpg);
+}
+
+.text-left{
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+
+}
+.text-left h3{
+    font-size: 35px;
+    text-decoration: underline black;
+}
+.text-left p{
+    font-size: 18px;
+}
+
+.text-right img{
+    height: 340px;
+    width: 260px;
+    margin-right: 10px;
+    margin-top: 60px;
+    box-shadow: 8px 8px black
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.edu-back1, .edu-back2, .edu-back3{
+    margin: 0 20px;
+    background-color: rgb(225, 206, 30);
+    padding: 10px;
+}
+.education h2{
+    text-align: center;
+    text-decoration: underline black;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.edu-back1 p, .edu-back2 p, .edu-back3 p{
+    font-size: 20px;
+
+}
+.edu-back1 h3, .edu-back2 h3, .edu-back3 h3{
+    font-size: 25px;
+    text-align: center;
+}
+.education{
+    background: url(img/12..jpg);
+}
+
+.ft p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550px;
+    /* background-color: yellow; */
+    font-family: 'Dancing Script', cursive;
+    padding: 15px 20px;
+}
+.footer{
+    background-image: url(img/11..jpg);
+}

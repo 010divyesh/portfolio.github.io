@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #1d1d1d;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 20px 10%;
+    /* background: transparent; */
+    background-color:rgb(4, 165, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar{
+    margin: 10px 0px;
+    
+}
+.navbar a 
+{
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a:hover{
+    color: aqua;
+}
+
+
+.tech{
+    text-align: center;
+    margin-top: 160px;
+}
+.tech h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.tech p{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.icon{
+    margin-top: 90px;
+}
+.icon a{
+    font-size: 500%;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin-left: 20%;
+    /* box-shadow: 0 0 50px rgb(118, 166, 186); */
+
+}
+
+.icon a:hover{
+    background:rgb(17, 76, 86);
+    color: white;
+    box-shadow: 0 0 50px rgb(26, 79, 88);
+}
+
+.icon-2 h2{
+    display: inline-flex;
+    margin-left: 232px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: rgb(26, 79, 88);
+    border-radius: 40px;
+    font-size: 16px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px rgb(26, 79, 88), 0 0 25px rgb(26, 79, 88),
+    0 0 50px rgb(26, 79, 88),0 0 100px rgb(26, 79, 88), 0 0 200px rgb(26, 79, 88)
+}
+.btn{
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.soc h3{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 30px;
+    padding-top: 20px;
+
+}
+.soc-1 {
+    display: flex;
+    margin: 10px 45%;
+    padding-bottom: 20px;
+}
+
+.soc-1 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 20px 10px 0;
+    padding: 10px;
+
+}
+.soc-1 a:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+.social{
+    background-image: url(img/15..jpg);
+}
+
+
+
+
+
+
